@@ -1,6 +1,5 @@
     # 基于xinetd的简易web服务器
-    make
-
+    0.make
     1.在这之前，你的安装好xinetd，
     如一安装好请忽略此步骤
     sudo apt-get install xinetd
@@ -28,6 +27,9 @@
     注意： 如果之前修改了服务名称如 myxhttpd ，请做相应的修改 
     4.重启xinetd服务
     sudo service xinetd restart
+    5.打开浏览器
+    输入  127.0.0.1:9988/
+    就可以访问本地文件夹了
 
     如需删除.o文件
     make claer_o
