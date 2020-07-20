@@ -1,0 +1,12 @@
+service xhttpd
+{
+	socket_type = stream
+	protocol    = tcp
+	wait        = no
+	user        = qyz
+	server      = /home/qyz/Desktop/linux/web/xhttpd
+	server_args = /home/qyz/dir
+	disable     = no
+	flags       = IPv4
+}
+
