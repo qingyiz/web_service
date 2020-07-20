@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FORMAT_DATE	xhttpd_send.c	10;"	d	file:
+N	main.c	15;"	d	file:
+N	xhttpd_othre.c	7;"	d	file:
+PROTOCOL	xhttpd_send.c	8;"	d	file:
+SERVER_NAME	xhttpd_send.c	7;"	d	file:
+SERVER_URL	xhttpd_send.c	9;"	d	file:
+file_infos	xhttpd_othre.c	/^void file_infos(char *dir, char *name)$/;"	f
+get_mime_type	get_type.c	/^char *get_mime_type(char *name)$/;"	f
+hexit	xhttpd_node.c	/^int hexit(char c)$/;"	f
+log	xhttpd_othre.c	8;"	d	file:
+main	main.c	/^int main(int argc,char *argv[])$/;"	f
+send_error	xhttpd_send.c	/^void send_error(int status, char* title, char* extra_header, char* text)$/;"	f
+send_headers	xhttpd_send.c	/^void send_headers(int status, char* title, char* extra_header, char* mime_type, off_t length, time_t mod)$/;"	f
+strdecode	xhttpd_node.c	/^void strdecode(char *to, char *from)$/;"	f
+strencode	xhttpd_node.c	/^void strencode(char* to, size_t tosize, const char* from)$/;"	f
+write_log	xhttpd_othre.c	/^void write_log(char *filename,int line, char* str)$/;"	f
