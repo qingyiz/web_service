@@ -20,8 +20,8 @@
     注意：该文件中不要使用空格，最好使用缩进，不然有可能会出现问题
     其中xxxx表示服务名称，可以修改，但是需要同步，例如改为myxhttpd
     则该文件名也需要把xhttpd 改为 myxhttpd
-    3.添加端口 文件末尾添加
-    vi /etc/server
+    3.添加端口 文件末尾添加(命令行模式下 GG 直接到末尾)
+    vi /etc/services
     xhttpd 9988/tcp  #xhttpd server 
     xhttpd 9988/udp
     注意： 如果之前修改了服务名称如 myxhttpd ，请做相应的修改 
