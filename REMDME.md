@@ -1,18 +1,18 @@
     # 基于xinetd的简易web服务器
     0.make
-    1.在这之前，你的安装好xinetd，
-    如一安装好请忽略此步骤
+    1.在这之前，你得安装好xinetd，
+    如以安装好请忽略此步骤
     sudo apt-get install xinetd
     2.配置xinetd服务器
     cp ./config/xhttpd /etc/xinetd.d/
     vi /etc/xinetd.d/xhttpd
-    service xhttpd（xxxx）
+    service xxxx
     {
         socket_type = stream
         protocol    = tcp
         wait        = no
         user        = qyz（你的用户名称）
-        server      = /home/qyz/Desktop/linux/web/xhttpd（xxxx）                        
+        server      = /home/qyz/Desktop/linux/web/xxxx //此目录是生成可执行文件的目录                        
         server_args = /home/qyz/dir （需要访问的目录）
         disable     = no
         flags       = IPv4
