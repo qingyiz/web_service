@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #define SERVER_NAME "xhttpd"
 #define PROTOCOL "HTTP/1.1"
-#define SERVER_URL "http://www.itcast.com/"
+#define SERVER_URL "https://github.com/qingyiz/"
 #define	FORMAT_DATE "%a, %d %b %Y %H:%M:%S GMT"
 
 /*
