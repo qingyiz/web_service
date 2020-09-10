@@ -6,7 +6,7 @@
 
 #define SERVER_NAME "xhttpd"
 #define PROTOCOL "HTTP/1.1"
-#define SERVER_URL "http://www.itcast.com/"
+#define SERVER_URL "https://github.com/qingyiz/"
 #define	FORMAT_DATE "%a, %d %b %Y %H:%M:%S GMT"
 
 
@@ -56,7 +56,7 @@ void send_headers(int status, char* title, char* extra_header, char* mime_type, 
     strftime(timebuf, sizeof(timebuf), FORMAT_DATE, gmtime(&now));
     printf("Date: %s\r\n", timebuf);
 
-	// Date: Fri, 18 Jul 2014 14:34:26 GMT
+	// Date
 
     if (extra_header != NULL)
 		printf("%s\r\n", extra_header);
