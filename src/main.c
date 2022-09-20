@@ -82,8 +82,8 @@ int main(int argc,char *argv[])
 */
 		send_headers(200, "Ok", NULL, "text/html", -1, sb.st_mtime);
 		
-		printf("<html><head><title>Index of %s</title></head>"
-		               "\n<body bgcolor=\"#99cc99\"><h4>Index of %s</h4>\n<pre>\n"
+		printf("<html><head><meta charset=\"UTF-8\"><title>Index of %s</title></head>"
+		               "\n<body bgcolor=\"#A1A5AD\"><h4>Index of %s</h4>\n<pre>\n"
 		               , file, file);
 
 		n = scandir(file, &dl, NULL, alphasort);        //拆分目录项
