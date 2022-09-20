@@ -55,6 +55,8 @@ char *get_mime_type(char *name)
 		return "application/ogg";
     if (strcmp(dot, ".pac") == 0)	
 		return "application/x-ns-proxy-autoconfig";
+    if (strcmp(dot, ".pdf") == 0)	
+		return "application/zip";
 
 	return "text/plain; charset=iso-8859-1";
 }
